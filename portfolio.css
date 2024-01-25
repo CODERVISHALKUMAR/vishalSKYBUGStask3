@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #93e0f5;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+}
+
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.tagline {
+    font-style: italic;
+}
+
+section {
+    width: 80%;
+    margin: 2em auto;
+    background-color: #fff;
+    padding: 1em;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+h2 {
+    color: #333;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 0.5em;
+}
+
+.project {
+    display: flex;
+    margin-bottom: 1em;
+}
+
+.project img {
+    flex: 0 0 30%;
+    margin-right: 1em;
+    border-radius: 8px;
+}
+
+.project-info {
+    flex: 1;
+}
+.circular-image {
+    width: 300px; /* Set the desired width */
+    height: 300px; /* Set the desired height */
+    border-radius: 70%; /* Make it circular by setting border-radius to 50% */
+    object-fit: contain; /* Ensure the image covers the entire circular area */
+  }
+
+footer {
+    background-color: rgb(84, 198, 240);
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
